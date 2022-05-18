@@ -30,11 +30,11 @@ const Cards = () => {
             return (
               <>
                 <Card style={{ width: '22rem',border:"none" }} className="mx-2 mt-4 card_style">
-                  <Card.Img variant="top" src={element.imgdata} style={{height:"16rem"}} className="mt-3" />
+                  <Card.Img variant="top" src={element.imgdata} style={{ width:'100px'}} className="mt-3" />
                   <Card.Body>
                     <Card.Title>{element.rname}</Card.Title>
                     <Card.Text>
-                    Price : ₹ {element.price}
+                    Price : c {element.price}
                     </Card.Text>
                     <div className="button_div d-flex justify-content-center">
                     <Button variant="primary"  
