@@ -174,7 +174,7 @@ const Cardsdata = [
         description:
           "Strange Case of Dr Jekyll and Mr Hyde by Robert Louis Stevenson is a narrative about the complexities of science and the duplicity of human nature",
         category: "Horror Literature, Gothic Literature, Novel,",
-        image: "./img/The strange case of Dr. Jekyll and Mr. Hydejpg.jpg.crdownload",
+        image: "./img/The strange case of Dr. Jekyll and Mr. Hyde.jpg",
       },
       {
         id: 20,
@@ -184,8 +184,6 @@ const Cardsdata = [
           "The Shawshank Redemption is a 1994 American drama film written and directed by Frank Darabont, based on the 1982 Stephen King novella Rita Hayworth and Shawshank Redemption.",
         category: "horror literature",
         image: "./img/shawshank .jpg",
-
-  
       },
   
  
