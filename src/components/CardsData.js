@@ -181,7 +181,7 @@ const Cardsdata = [
         title: "The Shawshank Redemption ",
         price: 12.99,
         description:
-          "The Shawshank Redemption is a 1994 American drama film written and directed by Frank Darabont, based on the 1982 Stephen King novella Rita Hayworth and Shawshank Redemption.",
+        "The Shawshank Redemption is a 1994 American drama film written and directed by Frank Darabont, based on the 1982 Stephen King novella Rita Hayworth and Shawshank Redemption.",
         category: "horror literature",
         image: "./img/shawshank .jpg",
       },
