@@ -1,7 +1,6 @@
 const Cardsdata = [
     {
         id: 1,
-<<<<<<< HEAD
         title: "The Great Gatsby",
         price: 109.95,
         description:
@@ -186,7 +185,6 @@ const Cardsdata = [
         category: "horror literature",
         image: "./img/shawshank .jpg",
       },
-=======
         rname: "Лимонад Simple banana",
         imgdata: "./img/banan.jpg",
         address: "Frash ",
@@ -281,7 +279,6 @@ const Cardsdata = [
         arrimg: "https://www.complexbar.ru/recipe/limonady",
          qnty:0
     },
->>>>>>> f235992330836ec45f5ef7030f3e7385f048024d
 ];
 
 export default Cardsdata;
