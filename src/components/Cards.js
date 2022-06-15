@@ -30,9 +30,9 @@ const Cards = () => {
             return (
               <>
                 <Card style={{ width: '22rem',border:"none" }} className="mx-2 mt-4 card_style">
-                  <Card.Img variant="top" src={element.imgdata} style={{height:"16rem"}} className="mt-3" />
+                  <Card.Img variant="top" src={element.image} style={{height:"16rem"}} className="mt-3" />
                   <Card.Body>
-                    <Card.Title>{element.rname}</Card.Title>
+                    <Card.Title>{element.title}</Card.Title>
                     <Card.Text>
                     Price : $ {element.price}
                     </Card.Text>

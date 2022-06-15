@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container'
 import Badge from '@mui/material/Badge';
 import Nav from 'react-bootstrap/Nav'
 import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
 import { NavLink } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import Table from 'react-bootstrap/esm/Table';
@@ -86,7 +85,7 @@ const Header = () => {
                                 <thead>
                                     <tr>
                                         <th>Photo</th>
-                                        <th>Restaurant Name</th>
+                                        <th> Name</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -97,12 +96,12 @@ const Header = () => {
                                                     <tr>
                                                         <td>
                                                         <NavLink to={`/cart/${e.id}`}   onClick={handleClose}>
-                                                        <img src={e.imgdata} style={{width:"5rem",height:"5rem"}} alt="" />
+                                                        <img src={e.image} style={{width:"5rem",height:"5rem"}} alt="" />
                                                         </NavLink>   
                                                         </td>
                                                         <td>
-                                                            <p>{e.rname}</p>
-                                                            <p>Price : ₹{e.price}</p>
+                                                            <p>{e.title}</p>
+                                                            <p>Price : ${e.price}</p>
                                                             <p>Quantity : {e.qnty}</p>
                                                             <p style={{color:"red",fontSize:20,cursor:"pointer"}} onClick={()=>dlt(e.id)}>
                                                                 <i className='fas fa-trash smalltrash'></i>
@@ -117,7 +116,7 @@ const Header = () => {
                                             )
                                         })
                                     }
-                                    <p className='text-center'>Total :₹ {price}</p>
+                                    <p className='text-center'>Total :${price}</p>
                                 </tbody>
                             </Table>
                         </div>:
