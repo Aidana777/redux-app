@@ -7,7 +7,7 @@ import Cards from './components/Cards';
 import {Routes,Route} from "react-router-dom";
 
 function App() {
-  const initialValues = { username: "", email: "", password: "" };
+  /*const initialValues = { username: "", email: "", password: "" };
   const [formValues, setFormValues] = useState(initialValues);
   const [formErrors, setFormErrors] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
@@ -48,7 +48,7 @@ function App() {
       errors.password = "Password cannot exceed more than 10 characters";
     }
     return errors;
-  };
+  };*/
   return (
   <>
   
