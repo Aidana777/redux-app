@@ -72,10 +72,17 @@ const remove = (item)=>{
               <Table>
                 <tr>
                   <td>
+<<<<<<< HEAD
                     <p> <strong>Name</strong>  : {ele.title}</p>
                     <p> <strong>Price</strong>  : ${ele.price}</p>
                     <p> <strong>description</strong>  : {ele.description}</p>
                     <p> <strong>Total</strong>  :$  {ele.price * ele.qnty}</p>
+=======
+                    <p> <strong>Restaurant</strong>  : {ele.rname}</p>
+                    <p> <strong>Price</strong>  :$ {ele.price}</p>
+                    <p> <strong>Dishes</strong>  : {ele.address}</p>
+                    <p> <strong>Total</strong>  : {ele.price * ele.qnty}</p>
+>>>>>>> f235992330836ec45f5ef7030f3e7385f048024d
                     <div className='mt-5 d-flex justify-content-between align-items-center' style={{width:100,cursor:"pointer",background:"#ddd",color:"#111"}}>
                     <span style={{fontSize:24}} onClick={ele.qnty <=1 ? ()=>dlt(ele.id) : ()=>remove(ele)}>-</span>
                     <span style={{fontSize:22}}>{ele.qnty}</span>
